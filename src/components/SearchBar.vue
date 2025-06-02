@@ -3,7 +3,7 @@
       <i class="search-icon fas fa-search"></i>
       <input 
         type="text" 
-        placeholder="搜索表白内容或用户..." 
+        placeholder="搜索内容或用户..." 
         :value="searchQuery"
         @input="$emit('update:searchQuery', $event.target.value)"
       >

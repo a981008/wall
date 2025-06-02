@@ -1,6 +1,6 @@
 <template>
     <header class="header">
-      <div class="logo">校园<span>表白墙</span></div>
+      <div class="logo">校园<span>星愿墙</span></div>
       <div class="nav-icons">
         <i class="nav-icon fas fa-bell"></i>
         <i class="nav-icon fas fa-envelope"></i>

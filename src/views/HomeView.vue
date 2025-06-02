@@ -34,7 +34,7 @@ const confessions = ref([])
 const lastId = ref(null)
 const loading = ref(false)
 const hasMore = ref(true)
-const pageSize = 6
+const pageSize = 10
 const searchQuery = ref('')
 
 // 加载数据
