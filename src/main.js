@@ -4,6 +4,9 @@ import App from './App.vue'
 import router from './router'
 import '@/assets/main.css'
 
+window.addEventListener('contextmenu', (e) => e.preventDefault());
+window.addEventListener('selectstart', e => e.preventDefault());
+
 async function bootstrap() {
   if (import.meta.env.VITE_USE_MOCK === 'true') {
     await import('@/mock')  // 等待 mock 加载完毕

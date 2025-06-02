@@ -16,6 +16,18 @@ export default {
 </script>
 
 <style scoped>
+/* 禁止用户选中页面上的任何内容 */
+* {
+  -webkit-user-select: none !important; /* Safari, Chrome */
+  -moz-user-select: none !important;    /* Firefox */
+  -ms-user-select: none !important;     /* IE/Edge */
+  user-select: none !important;          /* 标准 */
+  
+  -webkit-touch-callout: none !important; /* iOS 长按弹菜单禁用 */
+  -webkit-tap-highlight-color: transparent !important; /* 禁止点击高亮 */
+}
+
+
 .app {
   max-width: 900px;
   margin: 0 auto;

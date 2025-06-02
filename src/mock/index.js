@@ -4,5 +4,5 @@ import Mock from 'mockjs'
 import './confession' // 这个是你写的带 mockConfessions 的文件
 
 Mock.setup({
-  timeout: '200-600' // 可选，模拟延迟
+  timeout: '1-50' // 可选，模拟延迟
 })
