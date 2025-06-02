@@ -30,7 +30,7 @@ node_modules/.vite/
 .cache/
 
 # lock 文件（视团队约定，有的团队提交）
-# package-lock.json
+package-lock.json
 # yarn.lock
 
 # pnpm
